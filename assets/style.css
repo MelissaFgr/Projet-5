@@ -101,7 +101,7 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #000;
 	background-color: #BEB45A;
 	border-radius:0 ;
 	cursor: pointer;
@@ -244,6 +244,12 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+
+.modal-body {
+	display: grid;
+	justify-content: center;
+
 }
 
 @media all and (max-width: 1180px) {
